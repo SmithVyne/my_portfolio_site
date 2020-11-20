@@ -1,9 +1,10 @@
 import '../style.css';
 
+const a = document.createElement('a');
+
 const projectBoards = document.querySelectorAll('.project-img');
 projectBoards.forEach((project) => {
   project.addEventListener('click', (evt) => {
-    const a = document.createElement('a');
     const repo = evt.target.getAttribute('repo');
     a.href = repo;
     a.target = '_blank';
@@ -21,7 +22,9 @@ contactBtn.addEventListener('click', () => {
   });
   const [name, , text] = messages;
 
-  window.location = `mailto:smithnkereuwem2@gmail.com?subject=From%20${name}&body=${text}`;
+  a.href = `mailto:smithnkereuwem2@gmail.com?subject=From%20${name}&body=${text}`;
+  a.target = '_blank';
+  a.click();
 });
 
 const menuBtn = document.querySelector('.fa-bars');

@@ -20,7 +20,6 @@ export default [
   },
 ];
 
-
 // const addStacks = (stack, index) => {
 //   let devStackDiv = document.querySelector(`#dev-stack${index}`);
 //   devStackDiv.innerHTML = '';
@@ -28,7 +27,6 @@ export default [
 //     devStackDiv.innerHTML += `<span>${item}</span>`
 //   })
 // }
-
 
 // const portfolio = document.querySelector('#portfolio');
 // allProjects.forEach( (project, index) => {
