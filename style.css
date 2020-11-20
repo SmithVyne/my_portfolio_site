@@ -427,6 +427,7 @@ textarea.contact_field {
 
   #contact_form {
     width: 80%;
+    max-width: 80%;
   }
 
   #contact_title {
