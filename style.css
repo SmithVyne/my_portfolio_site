@@ -415,6 +415,10 @@ textarea.contact_field {
   .project-board {
     margin: calc(100% / 11) calc(100% / 11) 0 0;
   }
+
+  .project-img {
+    box-shadow: inset 0 0 10px #000;
+  }
 }
 
 @media (max-width: 400px) {
