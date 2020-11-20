@@ -3,25 +3,22 @@ export default [
     title: 'Ballie D Runner',
     id: 'd_fere',
     url: 'https://github.com/SmithVyne/phaser3-Runner-Game',
-    projectSub: ['PHASER JS','2020'],
-  descText: 
+    projectSub: ['PHASER JS', '2020'],
+    descText:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, labore odio iure blanditiis fugit quidem porro deleniti dolorum autem ratione voluptatem nobis quo inventore vero odit, tempore rerum eius dolores.',
-    devStack: [ 'Phaser JS', 'html', 'css', 'Javascript', 'Webpack', 'Babel', 'Jest', 'gdfsgfdsfhd', 'ahdgashgj'],
+    devStack: ['Phaser JS', 'html', 'css', 'Javascript', 'Webpack', 'Babel', 'Jest', 'gdfsgfdsfhd', 'ahdgashgj'],
   },
 
   {
     title: 'Ballie D Runner',
     id: 'delele',
     url: 'https://github.com/SmithVyne/phaser3-Runner-Game',
-    projectSub: ['PHASER JS','2020'],
-  descText: 
+    projectSub: ['PHASER JS', '2020'],
+    descText:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, labore odio iure blanditiis fugit quidem porro deleniti dolorum autem ratione voluptatem nobis quo inventore vero odit, tempore rerum eius dolores.',
-    devStack: [ 'Phaser JS', 'html', 'css', 'Javascript', 'Webpack', 'Babel', 'Jest'],
-  }
+    devStack: ['Phaser JS', 'html', 'css', 'Javascript', 'Webpack', 'Babel', 'Jest'],
+  },
 ];
-
-
-
 
 
 // const addStacks = (stack, index) => {
